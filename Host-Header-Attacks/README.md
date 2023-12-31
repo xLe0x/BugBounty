@@ -1,6 +1,6 @@
 # Host Header Attacks
 
-## Techniques & Bypasses
+- ## Techniques & Bypasses
 
 ### Reset Password Poisoning
 
@@ -17,8 +17,7 @@ The victim will click on the link `https://xle0x.com/reset-password?token=blahdf
 
 This sends the token to the `xle0x.com` server's logs.
 
-> [!Bypass]
-> **You could try to add another `Host` header with your server.**
+> 📘 **You could try to add another `Host` header with your server.**
 
 ##### Other Headers
 
@@ -93,5 +92,4 @@ X-Frame-Options: SAMEORIGIN
 Content-Length: 5707
 ```
 
-> [!NOTE]
-> change the host to `localhost` or `127.0.0.1` and you may bypass it.
+> 📘 change the host to `localhost` or `127.0.0.1` and you may bypass it.
